@@ -79,6 +79,23 @@ namespace numbersInCS
 
             Console.WriteLine(DD);
 
+            decimal minDec = decimal.MinValue;
+            decimal maxDec = decimal.MaxValue;
+
+            Console.WriteLine($"The range of the decimal type is {minDec} to {maxDec}");
+
+            double aM = 1.0;
+            double bM = 3.0;
+            Console.WriteLine(aM / bM);
+
+            decimal cM = 1.0M;
+            decimal dM = 3.0M;
+            Console.WriteLine(cM / dM);
+
+            //Challenge Math Pi
+
+            double rad = 2.5;
+            Console.WriteLine((rad*rad) * Math.PI);
         }
     }
 }

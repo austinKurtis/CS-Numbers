@@ -47,6 +47,38 @@ namespace numbersInCS
 
             int what = max + 3;
             Console.WriteLine($"An example of overflow: {what}");
+
+            double r = 5;
+            double s = 4;
+            double t = 2;
+            double u = (r + s) / t;
+
+            Console.WriteLine(u);
+
+            double da = 19;
+            double db = 23;
+            double dc = 8;
+            double dd = (da + db) / dc;
+
+            Console.WriteLine(dd);
+
+            double maxD = double.MaxValue;
+            double minD = double.MinValue;
+
+            Console.WriteLine($"The range of double is {minD} to {maxD}");
+
+            double third = 1.0 / 3.0;
+            Console.WriteLine(third);
+
+            //Challenge
+
+            double AA = 42.24;
+            double BB = 23.1;
+            double CC = 647;
+            double DD = (AA + BB) * CC / 7;
+
+            Console.WriteLine(DD);
+
         }
     }
 }
